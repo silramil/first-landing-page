@@ -68,7 +68,7 @@ a {
 .hero {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #F9FAF8;
     padding-bottom: 12px;
 }
@@ -90,11 +90,60 @@ img {
 button {
     color:#F9FAF8;
     background-color: #3882f6;
-    padding: 5px;
+    padding: 7px;
     margin: 0;
     border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
     border: 0;
     
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.subheading {
+    display: flex;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7eb;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px;
+
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    justify-content: center;
+}
+
+.quote-attribution {
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    align-self: flex-end;
 }
